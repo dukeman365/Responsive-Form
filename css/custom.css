@@ -1,0 +1,81 @@
+body{
+	background-color:#2a4362;
+}
+#title{
+	color:white;
+}
+#window{
+	background-color:white;
+	border-radius:5px;
+	padding:20px;
+	margin:auto;
+	max-width:500px;
+}
+.input-text{
+	padding:0px 15px;
+}
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+@media (max-width: 576px) {
+	.input{
+	margin:20px;
+	color:orange;
+	
+	}
+	
+	}
+
+/* // Small devices (landscape phones, 576px and up)/ */
+@media (min-width: 576px) {
+	.input{
+	margin:20px;
+	color:pink;
+	}
+	.input-text{
+		text-align:right;
+	}
+	.input-box{
+		float:left;
+	}
+	}
+
+/* // Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.input{
+	margin:20px;
+	color:green;
+	}
+	.input-text{
+		text-align:right;
+	}
+	.input-box{
+		float:left;
+	}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { .input{
+	margin:20px;
+	color:red;
+	}
+		.input-text{
+		text-align:right;
+	}
+	.input-box{
+		float:left;
+	}
+	}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { .input{
+	margin:20px;
+	color:blue;
+	}
+		.input-text{
+		text-align:right;
+	}
+	.input-box{
+		float:left;
+	}
+	}
