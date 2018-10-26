@@ -1,0 +1,22 @@
+body {
+  .app-base {
+    background-color: brown;
+  }
+
+  .form-base {
+    background-color: white;
+    width:65%;
+    max-width:500px;
+    margin:auto;
+    .form-component{
+
+    }
+  }
+
+}
+.input-box{
+  background-color: red;
+}
+.input-identifier{
+  color:blue;
+}
